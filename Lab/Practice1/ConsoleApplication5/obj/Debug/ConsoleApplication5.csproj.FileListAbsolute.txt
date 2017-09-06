@@ -1,0 +1,5 @@
+H:\Semestr2\C#\Practice1\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe.config
+H:\Semestr2\C#\Practice1\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe
+H:\Semestr2\C#\Practice1\ConsoleApplication5\bin\Debug\ConsoleApplication5.pdb
+H:\Semestr2\C#\Practice1\ConsoleApplication5\obj\Debug\ConsoleApplication5.exe
+H:\Semestr2\C#\Practice1\ConsoleApplication5\obj\Debug\ConsoleApplication5.pdb

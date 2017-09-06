@@ -1,0 +1,3 @@
+H:\Semestr2\C#\2D_ARREAY\Q1\bin\Debug\Q1.exe.config
+E:\Semestr2\C#\2D_ARREAY\Q1\bin\Debug\Q1.exe.config
+C:\Users\s00173510\Desktop\2\H_DRIVE\C#\2D_ARREAY\Q1\bin\Debug\Q1.exe.config

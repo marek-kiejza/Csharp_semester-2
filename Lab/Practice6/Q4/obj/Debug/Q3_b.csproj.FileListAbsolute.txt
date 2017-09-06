@@ -1,0 +1,5 @@
+H:\Semestr2\C#\Practice6\Q4\bin\Debug\Q4.exe.config
+H:\Semestr2\C#\Practice6\Q4\bin\Debug\Q4.exe
+H:\Semestr2\C#\Practice6\Q4\bin\Debug\Q4.pdb
+H:\Semestr2\C#\Practice6\Q4\obj\Debug\Q4.exe
+H:\Semestr2\C#\Practice6\Q4\obj\Debug\Q4.pdb

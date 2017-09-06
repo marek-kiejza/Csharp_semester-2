@@ -1,0 +1,6 @@
+H:\Semestr2\C#\Switch1\Q3\obj\Debug\Q3.csprojResolveAssemblyReference.cache
+H:\Semestr2\C#\Switch1\Q3\bin\Debug\Q3.exe.config
+H:\Semestr2\C#\Switch1\Q3\bin\Debug\Q3.exe
+H:\Semestr2\C#\Switch1\Q3\bin\Debug\Q3.pdb
+H:\Semestr2\C#\Switch1\Q3\obj\Debug\Q3.exe
+H:\Semestr2\C#\Switch1\Q3\obj\Debug\Q3.pdb

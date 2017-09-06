@@ -1,0 +1,6 @@
+H:\Semestr2\C#\Switch1\Switch1\bin\Debug\Switch1.exe.config
+H:\Semestr2\C#\Switch1\Switch1\bin\Debug\Switch1.exe
+H:\Semestr2\C#\Switch1\Switch1\bin\Debug\Switch1.pdb
+H:\Semestr2\C#\Switch1\Switch1\obj\Debug\Switch1.csprojResolveAssemblyReference.cache
+H:\Semestr2\C#\Switch1\Switch1\obj\Debug\Switch1.exe
+H:\Semestr2\C#\Switch1\Switch1\obj\Debug\Switch1.pdb

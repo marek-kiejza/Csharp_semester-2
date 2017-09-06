@@ -1,0 +1,6 @@
+H:\Semestr2\C#\Practice6\Q4_\bin\Debug\Q4_.exe.config
+H:\Semestr2\C#\Practice6\Q4_\bin\Debug\Q4_.exe
+H:\Semestr2\C#\Practice6\Q4_\bin\Debug\Q4_.pdb
+H:\Semestr2\C#\Practice6\Q4_\obj\Debug\Q4_.csprojResolveAssemblyReference.cache
+H:\Semestr2\C#\Practice6\Q4_\obj\Debug\Q4_.exe
+H:\Semestr2\C#\Practice6\Q4_\obj\Debug\Q4_.pdb

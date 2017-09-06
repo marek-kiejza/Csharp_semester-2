@@ -1,0 +1,8 @@
+C:\Users\s00173510\Desktop\PROJECT_MK\app_1\bin\Debug\app_1.exe.config
+C:\Users\s00173510\Desktop\PROJECT_MK\app_1\bin\Debug\app_1.exe
+C:\Users\s00173510\Desktop\PROJECT_MK\app_1\bin\Debug\app_1.pdb
+C:\Users\s00173510\Desktop\PROJECT_MK\app_1\bin\Debug\app_1.exe.CodeAnalysisLog.xml
+C:\Users\s00173510\Desktop\PROJECT_MK\app_1\bin\Debug\app_1.exe.lastcodeanalysissucceeded
+C:\Users\s00173510\Desktop\PROJECT_MK\app_1\obj\Debug\app_1.csprojResolveAssemblyReference.cache
+C:\Users\s00173510\Desktop\PROJECT_MK\app_1\obj\Debug\app_1.exe
+C:\Users\s00173510\Desktop\PROJECT_MK\app_1\obj\Debug\app_1.pdb

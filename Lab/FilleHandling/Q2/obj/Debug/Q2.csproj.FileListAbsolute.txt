@@ -1,0 +1,12 @@
+H:\Semestr2\C#\FilleHandling\Q2\bin\Debug\Q2.exe.config
+H:\Semestr2\C#\FilleHandling\Q2\bin\Debug\Q2.exe
+H:\Semestr2\C#\FilleHandling\Q2\bin\Debug\Q2.pdb
+H:\Semestr2\C#\FilleHandling\Q2\obj\Debug\Q2.exe
+H:\Semestr2\C#\FilleHandling\Q2\obj\Debug\Q2.pdb
+H:\Semestr2\C#\FilleHandling\Q2\obj\Debug\Q2.csprojResolveAssemblyReference.cache
+C:\Users\s00173510\Desktop\2\H_DRIVE\C#\FilleHandling\Q2\bin\Debug\Q2.exe.config
+C:\Users\s00173510\Desktop\2\H_DRIVE\C#\FilleHandling\Q2\obj\Debug\Q2.exe
+C:\Users\s00173510\Desktop\2\H_DRIVE\C#\FilleHandling\Q2\obj\Debug\Q2.pdb
+C:\Users\s00173510\Desktop\2\H_DRIVE\C#\FilleHandling\Q2\bin\Debug\Q2.exe
+C:\Users\s00173510\Desktop\2\H_DRIVE\C#\FilleHandling\Q2\bin\Debug\Q2.pdb
+C:\Users\s00173510\Desktop\2\H_DRIVE\C#\FilleHandling\Q2\obj\Debug\Q2.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+H:\Semestr2\C#\Practice4\Practice4\Q8\bin\Debug\Q8.exe.config
+H:\Semestr2\C#\Practice4\Practice4\Q8\bin\Debug\Q8.exe
+H:\Semestr2\C#\Practice4\Practice4\Q8\bin\Debug\Q8.pdb
+H:\Semestr2\C#\Practice4\Practice4\Q8\obj\Debug\Q8.exe
+H:\Semestr2\C#\Practice4\Practice4\Q8\obj\Debug\Q8.pdb
+H:\Semestr2\C#\Practice4\Practice4\Q8\obj\Debug\Q8.csprojResolveAssemblyReference.cache

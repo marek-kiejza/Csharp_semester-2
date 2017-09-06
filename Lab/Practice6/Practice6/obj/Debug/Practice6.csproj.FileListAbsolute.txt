@@ -1,0 +1,6 @@
+H:\Semestr2\C#\Practice6\Practice6\bin\Debug\Practice6.exe.config
+H:\Semestr2\C#\Practice6\Practice6\bin\Debug\Practice6.exe
+H:\Semestr2\C#\Practice6\Practice6\bin\Debug\Practice6.pdb
+H:\Semestr2\C#\Practice6\Practice6\obj\Debug\Practice6.csprojResolveAssemblyReference.cache
+H:\Semestr2\C#\Practice6\Practice6\obj\Debug\Practice6.exe
+H:\Semestr2\C#\Practice6\Practice6\obj\Debug\Practice6.pdb

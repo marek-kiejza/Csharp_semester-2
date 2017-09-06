@@ -1,0 +1,6 @@
+H:\Semestr2\C#\FilleHandling\Q1\bin\Debug\Q1.exe.config
+H:\Semestr2\C#\FilleHandling\Q1\bin\Debug\Q1.exe
+H:\Semestr2\C#\FilleHandling\Q1\bin\Debug\Q1.pdb
+H:\Semestr2\C#\FilleHandling\Q1\obj\Debug\Q1.csprojResolveAssemblyReference.cache
+H:\Semestr2\C#\FilleHandling\Q1\obj\Debug\Q1.exe
+H:\Semestr2\C#\FilleHandling\Q1\obj\Debug\Q1.pdb

@@ -1,0 +1,38 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Q8
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int age=0,sal=0;
+
+            age = Read("Enter age ");
+
+            sal = Read("enter salary");
+            Console.WriteLine(age);
+            loop(age, sal);
+            Console.ReadLine();
+        }
+        static int Read(string msg)
+        {
+            int re;
+            Console.WriteLine(msg);
+            re = int.Parse(Console.ReadLine());
+            return re;
+        }
+
+        static void loop(int num1,int num2)
+        {
+            for(;num1<=num2;num1++)
+            {
+                Console.Write(num1);
+            }
+        }
+    }
+}

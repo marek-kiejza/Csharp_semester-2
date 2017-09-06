@@ -1,0 +1,4 @@
+H:\Semestr2\C#\mareks_stuff\mareks_stuff\bin\Debug\mareks_stuff.dll
+H:\Semestr2\C#\mareks_stuff\mareks_stuff\bin\Debug\mareks_stuff.pdb
+H:\Semestr2\C#\mareks_stuff\mareks_stuff\obj\Debug\mareks_stuff.dll
+H:\Semestr2\C#\mareks_stuff\mareks_stuff\obj\Debug\mareks_stuff.pdb

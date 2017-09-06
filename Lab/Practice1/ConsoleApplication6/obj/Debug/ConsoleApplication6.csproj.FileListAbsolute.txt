@@ -1,0 +1,9 @@
+H:\Semestr2\C#\Practice1\ConsoleApplication6\bin\Debug\ConsoleApplication6.exe.config
+H:\Semestr2\C#\Practice1\ConsoleApplication6\bin\Debug\ConsoleApplication6.exe
+H:\Semestr2\C#\Practice1\ConsoleApplication6\bin\Debug\ConsoleApplication6.pdb
+H:\Semestr2\C#\Practice1\ConsoleApplication6\obj\Debug\ConsoleApplication6.csprojResolveAssemblyReference.cache
+H:\Semestr2\C#\Practice1\ConsoleApplication6\obj\Debug\ConsoleApplication6.exe
+H:\Semestr2\C#\Practice1\ConsoleApplication6\obj\Debug\ConsoleApplication6.pdb
+E:\Semestr2\C#\Practice1\ConsoleApplication6\bin\Debug\ConsoleApplication6.exe.config
+E:\Semestr2\C#\Practice1\ConsoleApplication6\obj\Debug\ConsoleApplication6.exe
+E:\Semestr2\C#\Practice1\ConsoleApplication6\obj\Debug\ConsoleApplication6.pdb

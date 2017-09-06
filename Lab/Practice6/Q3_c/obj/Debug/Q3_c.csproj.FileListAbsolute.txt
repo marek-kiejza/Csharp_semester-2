@@ -1,0 +1,5 @@
+H:\Semestr2\C#\Practice6\Q3_c\bin\Debug\Q3_c.exe.config
+H:\Semestr2\C#\Practice6\Q3_c\bin\Debug\Q3_c.exe
+H:\Semestr2\C#\Practice6\Q3_c\bin\Debug\Q3_c.pdb
+H:\Semestr2\C#\Practice6\Q3_c\obj\Debug\Q3_c.exe
+H:\Semestr2\C#\Practice6\Q3_c\obj\Debug\Q3_c.pdb
