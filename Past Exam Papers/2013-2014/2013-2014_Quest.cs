@@ -1,4 +1,4 @@
-using System;
+ï»¿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -35,7 +35,7 @@ class Game
         Console.Write("How many days You whont to rent the car?");
         days = Try(days);
         price=CarRent(days);
-        Console.WriteLine("Rental charge is €{0}", price);
+        Console.WriteLine("Rental charge is â‚¬{0}", price);
         Console.ReadKey();
         */
 
@@ -81,27 +81,27 @@ class Game
 
         //QV
         Console.OutputEncoding = System.Text.Encoding.UTF8;
-        int balance=0,withdrow=0,newbalance;
+        int balance = 0, withdrow = 0, newbalance;
         Console.Write("What is the balance : ");
         balance = Try(balance);
         Console.WriteLine();
-        
+
         Console.Write("what is Your withdraw :");
         withdrow = Try(withdrow);
         Console.WriteLine();
         newbalance = Withdrow(balance, withdrow);
-        Console.WriteLine("Yor balance is €{0}",newbalance);
+        Console.WriteLine("Yor balance is â‚¬{0}", newbalance);
 
-               
+
 
         Console.ReadKey();
     }// end main
 
-    static int Withdrow(int balance,int withdrow)
+    static int Withdrow(int balance, int withdrow)
     {
         int newbalance = 0;
 
-        if (balance>=withdrow)
+        if (balance >= withdrow)
         {
             newbalance = balance - withdrow;
         }
@@ -115,7 +115,7 @@ class Game
     }
     static int Discount(int days)
     {
-        int discount=0;
+        int discount = 0;
 
         switch (days)
         {
@@ -149,7 +149,7 @@ class Game
             default:
                 discount = 15;
                 break;
-                
+
         }
 
         return discount;
@@ -165,20 +165,20 @@ class Game
             y = empty;
             //Console.WriteLine(x+y);
             //Console.ReadKey();
-         }
-        if (x>z)
+        }
+        if (x > z)
         {
             empty = x;
             x = z;
             z = empty;
-           
+
         }
-        if (y>z)
+        if (y > z)
         {
             empty = y;
             y = z;
             z = empty;
-            
+
         }
         bool sort = true;
 
@@ -189,9 +189,9 @@ class Game
 
         return new string(str.ToCharArray().Reverse().ToArray());
 
-    /*
-    http://tipsandtricks.runicsoft.com/CSharp/StringReverse.html
-        */
+        /*
+        http://tipsandtricks.runicsoft.com/CSharp/StringReverse.html
+            */
     }
 
 
@@ -200,7 +200,7 @@ class Game
         bool correct = false;
         string text = "";
 
-        while (correct==false)
+        while (correct == false)
         {
 
             text = Console.ReadLine();
@@ -221,7 +221,7 @@ class Game
 
     static int CarRent(int days)
     {
-        int price=0;
+        int price = 0;
 
 
         if (days > 3)
@@ -237,7 +237,7 @@ class Game
             price = 50;
         return price;
     }
-     
+
 
 
 

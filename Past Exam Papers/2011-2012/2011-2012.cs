@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -135,7 +135,7 @@ class Game
             fields = lineIn.Split(',', ' ');// split lineIn where there is a ','or  ' '
 
             // print to screen
-           Console.Write("{0} {1,-10}{2}", fields[1].ToUpper(), fields[2].ToUpper(), fields[3]);
+            Console.Write("{0} {1,-10}{2}", fields[1].ToUpper(), fields[2].ToUpper(), fields[3]);
 
             hightScore = int.Parse(fields[3]);//Convert string to int  
             StarRating(hightScore);//Call method

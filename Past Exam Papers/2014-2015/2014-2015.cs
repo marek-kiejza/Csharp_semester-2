@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -45,7 +45,7 @@ class Game
         sw.WriteLine("005,T1,6");
         sw.WriteLine("006,T2,7");
         sw.WriteLine("007,T4,2");
-        
+
         // close the connection to the file
         sw.Close();
     }
@@ -90,7 +90,7 @@ class Game
         return arreyAll;
     }
 
-    static int [] Analysis(string[,] arrey, int count)//Score Analysis Report method
+    static int[] Analysis(string[,] arrey, int count)//Score Analysis Report method
     {
         int z = 0;
         int numer = 0;
@@ -104,22 +104,22 @@ class Game
         {
 
             price = int.Parse(arrey[z, 2]);//Convert string to int      
-            
+
             numer += price;
 
             //Assign value to 2d array location
-           
-            for (int y = 0; y < age.Length ; y++)
+
+            for (int y = 0; y < age.Length; y++)
             {
-                
+
 
                 if (arrey[z, 1] == age[y])
-                {                
+                {
                     countArr[y] += price * value[y];
                 }
-                
+
             }
-            
+
             z++;
             count--;
 
@@ -137,12 +137,12 @@ class Game
         for (int i = 0; i < 5; i++)
         {
             Console.Write("{0,-9}", score[i]);
-            
-                Console.WriteLine("{0,13:f2}", countArr[i]);
+
+            Console.WriteLine("{0,13:f2}", countArr[i]);
             countArr[4] += countArr[i];
         }
         Console.WriteLine();
-       
+
     }
 
 

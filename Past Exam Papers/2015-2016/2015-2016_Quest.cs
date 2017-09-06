@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -87,26 +87,26 @@ class Game
         HalfInt(ref a, ref b);
 
         Console.WriteLine("Half of int is:");
-        Console.WriteLine("-firsy : {0}",a);
-        Console.WriteLine("-secend : {0}",b);
+        Console.WriteLine("-firsy : {0}", a);
+        Console.WriteLine("-secend : {0}", b);
 
         Console.ReadKey();
-        
-      //Console.OutputEncoding = System.Text.Encoding.UTF8;
+
+        //Console.OutputEncoding = System.Text.Encoding.UTF8;
     }// end main
     static void HalfInt(ref int a, ref int b)
     {
         a = a / 2;
         b = b / 2;
-        
+
     }
-    static double AverageSecond(int[]arr,int size)
+    static double AverageSecond(int[] arr, int size)
     {
         int total = 0;
         double div = 0;
         double average = 0;
 
-        for (int i = 0; i < size; i+=2)
+        for (int i = 0; i < size; i += 2)
         {
             total += arr[i];
             div++;
@@ -122,7 +122,7 @@ class Game
             check = true;
         }
 
-      return check;
+        return check;
     }
     static int SumOddNums(int n1, int n2)
     {
@@ -130,7 +130,7 @@ class Game
         if (n1 % 2 != 0)
             n1++;
 
-        for (int i=n1; i <= n2; i+=2)
+        for (int i = n1; i <= n2; i += 2)
         {
             sumOdd += i;
         }
@@ -143,18 +143,18 @@ class Game
         switch (code)
         {
             case 'A':
-            points = 50;
-            break;
+                points = 50;
+                break;
 
             case 'S':
             case 'H':
             case 'J':
-            points = 100;
-            break;
+                points = 100;
+                break;
 
             case 'Q':
-            points = 200;
-            break;
+                points = 200;
+                break;
 
             default:
                 points = 0;
@@ -163,7 +163,7 @@ class Game
 
         return points;
     }
-  
+
 
 
     static int Try(int num)//Menu printed on start of the program
@@ -171,7 +171,7 @@ class Game
         bool correct = false;
         string text = "";
 
-        while (correct==false)
+        while (correct == false)
         {
 
             text = Console.ReadLine();
