@@ -1,0 +1,144 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+
+        string cont ="";
+            do
+            {
+                Console.Clear();
+                int age = 0;
+                int working = 0, hourRate = 0;
+                string quali = "";
+
+                working = ReadInt("Enter hours worked ", working);
+
+                quali = ReadString("Qualification(yes / no) :", quali);
+
+                age = ReadInt("Enter employee  age : ", age);
+
+                hourRate = Switch(working);
+
+                IfStat(working, quali, age, hourRate);
+
+               cont = ReadString("Do you wish to calculate another yes / no ? :", cont);
+            } while (cont == "YES");
+        }
+
+
+        static int ReadInt(string text, int number)
+        {
+            Console.Write(text);
+            number = int.Parse(Console.ReadLine()); ;
+
+            return number;
+        }
+
+
+        static string ReadString(string text, string writText)
+        {
+            Console.Write(text);
+            writText = Console.ReadLine().ToUpper();
+
+            return writText;
+        }
+
+        static int Switch(int value)
+        {
+            switch (value)
+            {
+                case 1:
+                case 2:
+                case 3:
+                case 4:
+                case 5:
+                    value = 5;
+                    break;
+
+                case 6:
+                case 7:
+                    value = 6;
+                    break;
+
+                case 8:
+                case 9:
+                case 10:
+                    value = 7;
+                    break;
+
+                case 11:
+                case 12:
+                case 13:
+                case 14:
+                case 15:
+                    value = 9;
+                    break;
+
+                case 16:
+                case 17:
+                case 18:
+                case 19:
+                case 20:
+                case 21:
+                case 22:
+                case 23:
+                case 24:
+                    value = 10;
+                    break;
+
+                default:
+                    Console.WriteLine("Report an error");
+                    value = 0;
+                    break;
+
+            }
+            return value;
+
+        }
+
+
+        static void IfStat(double houer, string text, int age, double rate)
+        {
+            const double PERCENT1 = 0.9 , PERCENT2 = 1.15, PERCENT3 = 1.2 ,AGE=21 ,MAX =50;
+
+            double result = 0;
+            if (text == "NO" && age < AGE)
+            {
+                result = (houer * rate) * PERCENT1;
+            }
+            else if (text == "NO" && age >= AGE)
+            {
+                result = (houer * rate) * PERCENT2;
+            }
+
+            else if (text == "YES" && age >= AGE)
+            {
+                result = (houer * rate) * PERCENT3;
+            }
+            else 
+                result = houer * rate;
+
+
+
+            if (result > MAX)
+                result =MAX;
+            
+            
+            Console.WriteLine("Your pay  is : €{0:f2}", result);
+        }
+
+
+    }
+
+}
+
+

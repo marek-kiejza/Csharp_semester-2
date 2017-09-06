@@ -1,0 +1,23 @@
+ static int Try(int num)//Menu printed on start of the program
+    {
+        bool correct = false;
+        string text = "";
+
+        while (correct==false)
+        {
+
+            text = Console.ReadLine();
+
+            // catch errors
+            try
+            {
+                num = int.Parse(text);
+                correct = true;
+            }
+            catch (Exception e)  // Get the error message out of the exception 
+            {
+                Console.WriteLine(e.Message);
+            }
+        }
+        return num;
+    }

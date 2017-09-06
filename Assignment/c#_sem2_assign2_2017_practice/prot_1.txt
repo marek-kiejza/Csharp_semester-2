@@ -1,0 +1,200 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.IO;// must include this reference when implementing file handling
+
+
+/*
+
+Marek Kieja
+S00173510
+14/04/2017
+Program for a games company maintains high score records for its game players.  
+
+    */
+class Game
+{
+    static void Main()
+    {
+
+        CreateFile();
+       // int count = LineCount();
+        
+        Analysis();// call appropriate method(s)
+                   
+        Console.ReadKey();
+
+    }// end main
+    static void CreateFile()
+    {
+        // create a connection to the file
+        StreamWriter sw = new StreamWriter(@"scores.txt"); // placed the file in the debug folder, so no path needed
+
+        //write to file
+        sw.WriteLine("G001,Florence Ryan,Spanish,280");
+        sw.WriteLine("G002,Sebastian Jones,Irish,650");
+        sw.WriteLine("G003,Isabella Kelly,French,720");
+
+        // close the connection to the file
+        sw.Close();
+    }
+   
+
+   /* static int LineCount()// count numbers of lines in the scores.txt
+    {
+        StreamReader sr = new StreamReader(@"scores.txt");
+        int counte = 0;
+
+        string line;
+        while ((line = sr.ReadLine()) != null)
+        {
+            counte++;
+        }
+
+        return counte;
+    }
+   */
+    static void Analysis()//Score Analysis Report method
+    {
+
+        int numer = 0;
+        int hightScore = 0;
+        StreamReader sr = new StreamReader(@"scores.txt");
+        string[] fields = new string[4];// array to store chopped up line
+        string[] score = { "Under 20", "20-29", "30-39", "40-49", "50 +", };
+        int[] age = {0,400,600,700,800,900,1000 };
+        int[,] countArr = new int[5, 3];// 2D array to store data
+
+        int lineCount = 0, irish = 0, nonIrish = 0;
+        string lineIn;// will hold data that we read in
+        lineIn = sr.ReadLine();// read in first line from file
+
+        while (lineIn != null)// null signals end of the file
+        {
+
+            fields = lineIn.Split(',', ' '); // split lineIn where there is a ','or  ' '
+
+
+            hightScore = int.Parse(fields[4]);//Convert string to int           
+            numer += hightScore;
+
+            /*
+            //Assign value to 2d array location
+            if (hightScore < age[1])
+            {
+                countArr[0, 0]++;
+                if (fields[3] == "Irish")
+                {
+                    countArr[0, 2]++;
+                    irish++;
+                }
+                else
+                {
+                    countArr[0, 1]++;
+                    nonIrish++;
+                }
+            }
+            else if (hightScore >=age[1] && hightScore < age[2])
+            {
+                countArr[1, 0]++;
+                if (fields[3] == "Irish")
+                {
+                    countArr[1, 2]++;
+                    irish++;
+                }
+                else
+                {
+                    countArr[1, 1]++;
+                    nonIrish++;
+                }
+            }
+            else if (hightScore >= age[2] && hightScore < age[3])
+            {
+                countArr[2, 0]++;
+                if (fields[3] == "Irish")
+                {
+                    countArr[2, 2]++;
+                    irish++;
+                }
+                else
+                {
+                    countArr[2, 1]++;
+                    nonIrish++;
+                }
+            }
+            else if (hightScore >= age[3] && hightScore <= 999)
+            {
+                countArr[3, 0]++;
+                if (fields[3] == "Irish")
+                {
+                    countArr[3, 2]++;
+                    irish++;
+                }
+                else
+                {
+                    countArr[3, 1]++;
+                    nonIrish++;
+                }
+            }
+            else
+            {
+                countArr[4, 0]++;
+                if (fields[3] == "Irish")
+                {
+                    countArr[4, 2]++;
+                    irish++;
+                }
+                else
+                {
+                    countArr[4, 1]++;
+                    nonIrish++;
+                }
+            }*/
+            
+            for (int y = 0; y < age.Length-1; y++)
+            {
+                if (hightScore>age[y] && hightScore<age[y+1])
+                {
+                    countArr[y, 0]++;
+                    if (fields[3] == "Irish")
+                    {
+                        countArr[y, 2]++;
+                        irish++;
+                    }
+                    else
+                    {
+                        countArr[y, 1]++;
+                        nonIrish++;
+                    }
+                }
+            }
+            lineCount++;
+
+            lineIn = sr.ReadLine();// read in the next line
+           
+
+        }//while end
+
+        // print to screen
+
+        Console.WriteLine("Score Range {0,14}{1,17}{2,9}", "Count", "Female", "Male");
+        Console.WriteLine();
+        for (int i = 0; i < 5; i++)
+        {
+            Console.Write("{0,-9}", score[i]);
+            for (int y = 0; y < 3; y++)
+            {
+                Console.Write("{0,13}", countArr[i, y]);
+            }
+            Console.WriteLine();
+        }
+        Console.WriteLine();
+        Console.WriteLine("Totals{0,16}{1,13}{2,13}", lineCount, nonIrish, irish);
+
+    }
+
+   
+
+}

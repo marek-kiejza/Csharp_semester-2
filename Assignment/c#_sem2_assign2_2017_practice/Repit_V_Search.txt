@@ -1,0 +1,53 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.IO;// must include this reference when implementing file handling
+
+
+/*
+
+Marek Kieja
+S00173510
+14/04/2017
+Program for a games company maintains high score records for its game players.  
+
+    */
+class Game
+{
+    static void Main()
+    {
+
+       
+
+        int num=0;
+        string str, searchString;
+        str = Console.ReadLine();//"c# if fun fun fun";
+        searchString = Console.ReadLine();//"fun";
+        
+        num = Search(str, searchString);
+        Console.WriteLine(num);
+        Console.ReadKey();
+    }
+   
+    static int Search(string str, string searchString)
+    {
+        int num = 0;
+        string[] fields = new string[str.Length];
+        fields = str.Split(' ');
+
+        Console.ReadKey();
+
+        for (int i = 0; i < fields.Length; i++)
+        {
+            if (fields[i] == searchString)
+                num++;
+        }
+
+
+        return num;
+    }
+
+  
+}
