@@ -1,0 +1,45 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int number = 0;
+
+            number = ReadInt(number);
+
+            Console.WriteLine(number);
+
+            Console.ReadLine();
+        }
+
+
+
+
+        static private int ReadInt(int num)
+        {
+            bool check=false;
+            int result=0;
+            string inputValue;
+            while (check == false)
+            {
+                inputValue = Console.ReadLine();
+                check = int.TryParse(inputValue, out result);
+
+                if (check == false)
+                    Console.WriteLine("Invalid input");
+            }
+            return result;
+
+        }
+   
+
+
+    }
+}

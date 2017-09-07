@@ -1,0 +1,10 @@
+C:\Users\m\Desktop\C# Project\ConsoleApplication3\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe.config
+C:\Users\m\Desktop\C# Project\ConsoleApplication3\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe
+C:\Users\m\Desktop\C# Project\ConsoleApplication3\ConsoleApplication4\bin\Debug\ConsoleApplication4.pdb
+C:\Users\m\Desktop\C# Project\ConsoleApplication3\ConsoleApplication4\obj\Debug\ConsoleApplication4.exe
+C:\Users\m\Desktop\C# Project\ConsoleApplication3\ConsoleApplication4\obj\Debug\ConsoleApplication4.pdb
+C:\Users\s00173510\Desktop\C# Project\ConsoleApplication3\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe.config
+C:\Users\s00173510\Desktop\C# Project\ConsoleApplication3\ConsoleApplication4\obj\Debug\ConsoleApplication4.exe
+C:\Users\s00173510\Desktop\C# Project\ConsoleApplication3\ConsoleApplication4\obj\Debug\ConsoleApplication4.pdb
+C:\Users\s00173510\Desktop\C# Project\ConsoleApplication3\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe
+C:\Users\s00173510\Desktop\C# Project\ConsoleApplication3\ConsoleApplication4\bin\Debug\ConsoleApplication4.pdb
